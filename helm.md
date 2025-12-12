@@ -236,8 +236,10 @@ helmfile -version
         installed: true
     ```
 
-3. Sync:
+3. Sync with Helmfile:
+    ```sh
     helmfile sync
+    helm list -a
     ```
 
 
